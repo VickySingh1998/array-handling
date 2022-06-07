@@ -4,7 +4,7 @@ public class ArrayHandling {
         int [] arr = new int[] {34, 6, 98, 76, 86, 5};
         System.out.println("The elements of an array present on an even position :- ");
 
-        for (int i=1; i<arr.length; i=i+2)
+        for (int i=0; i<arr.length; i=i+2)
         System.out.println(arr[i]);
     }
 }
