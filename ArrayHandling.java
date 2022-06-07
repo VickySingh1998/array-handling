@@ -2,6 +2,9 @@ package com.bridgelabz;
 
 public class ArrayHandling {
     public static void main(String[] args) {
-        System.out.println("Welcome To Array Handling Programs");
+        int roll[] = {1, 2, 3};
+        for (int i=0; i<3; i++) {
+            System.out.println("Roll No "+roll[i]);
+        }
     }
 }
